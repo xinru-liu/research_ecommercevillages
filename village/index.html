@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>E-commerce Villages</title>
+  <link href="stylesheet.css" rel="stylesheet" type="text/css" />
+  <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.css' rel='stylesheet' />
+  <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
+  <!-- <script src="https://unpkg.com/scrollama"></script> -->
+  <script src="https://d3js.org/d3.v5.min.js" charset="utf-8"></script>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class='fixed-bottom'>
+      <!--<a class="navbar-brand" href="#">Start Bootstrap</a>-->
+      <div id="navbarResponsive">
+        <ul class="navbar_nav">
+          <li class="nav-item">
+            <a class="nav-link" href="/website_final/national/">National Scale</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/website_final/village/">Village Scale
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+
+        </ul>
+      </div>
+  </nav>
+
+  <!-- Page Content -->
+
+<a class="title-link" href="/website_final/">
+<div class='div_for_title'>
+<h1 id="tile_1">Spatial Morphology and Cultural Construction</h1>
+<h1 id='tile_2'>in Chinese E-commerce Villages</h1>
+</div>
+</a>
+
+<div class='div_for_button'></div>
+<div class='div_for_button2'>
+  <button class="popup" onclick="myFunction2()">Wantou Village
+    <span class="popuptext1" id="myPopup2"><img alt='WT' src='img/wantou.gif'/>Cultural E-commerce village - hand-woven craft</span>
+  </button>
+
+  <button class="popup" onclick="myFunction3()">Nanshishan Village
+    <span class="popuptext2" id="myPopup3"><img alt='NSS' src='img/nanshishan.gif'/>Cultural E-commerce village - Chinese Instruments</span>
+  </button>
+
+  <button class="popup" onclick="myFunction4()">Matun Village
+    <span class="popuptext3" id="myPopup4"><img alt='MT' src='img/matun.gif'/>Cultural E-commerce village - Traditional Drum</span>
+  </button>
+
+  <button class="popup" onclick="myFunction5()">Shiputou Village
+    <span class="popuptext4" id="myPopup5"><img alt='SPT' src='img/shiputou.gif'/>Industrial E-commerce village</span>
+  </button>
+
+  <button class="popup" onclick="myFunction6()">Shaji Village
+    <span class="popuptext5" id="myPopup6"><img alt='SJ' src='img/shaji.gif'/>Industrial E-commerce village - Furniture</span>
+  </button>
+
+  <button class="popup" onclick="myFunction7()">Junpu Village
+    <span class="popuptext6" id="myPopup7"><img alt='JP' src='img/junpu.gif'/>Industrial E-commerce village</span>
+  </button>
+
+</div>
+<!--
+<div id='div_for_text'>
+    <p>
+        description of the Villages
+        description of the Villages
+        description of the Villages
+    </p>
+</div> -->
+
+
+
+<div id="map"></div>
+<div id="graph"></div>
+
+
+<!-- <div id="story"> -->
+
+<!-- <script src="./config.js"></script> -->
+<script src="./map.js"></script>
+<script src="./graphic.js"></script>
+</div>
+<script>
+
+</script>
+
+</body>
+</html>

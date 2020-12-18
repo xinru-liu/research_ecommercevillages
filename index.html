@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>E-commerce Villages</title>
+  <link href="stylesheet.css" rel="stylesheet" type="text/css" />
+  <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v1.5.0/mapbox-gl.css' rel='stylesheet' />
+  <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
+  <script src="https://unpkg.com/scrollama"></script>
+  <script src="https://d3js.org/d3.v5.min.js" charset="utf-8"></script>
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class='fixed-bottom'>
+    <!-- <div class="container"> -->
+      <!--<a class="navbar-brand" href="#">Start Bootstrap</a>-->
+      <div id="navbarResponsive">
+        <ul class="navbar_nav">
+          <li class="nav-item">
+            <a class="nav-link" href="national/">National Scale
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="village/">Village Scale</a>
+          </li>
+
+        </ul>
+      </div>
+    <!-- </div> -->
+  </nav>
+
+  <!-- Page Content -->
+
+<a class="title-link" href="/website_final/">
+<div class='div_for_title'>
+<h1 id="tile_1">Spatial Morphology and Cultural Construction</h1>
+<h1 id='tile_2'>in Chinese E-commerce Villages</h1>
+</div>
+</a>
+
+<!-- div for button -->
+<div class='div_for_button'>
+  <button id="backbutton">Zoom To National Scale</button>
+</div>
+
+
+<div id="map"></div>
+
+<div id="story"></div>
+<div id="graph"></div>
+
+<script src="./config.js"></script>
+
+<script src="./map.js"></script>
+
+<script src="./graphic.js"></script>
+
+<script>
+
+</script>
+
+</body>
+</html>
